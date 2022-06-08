@@ -34,3 +34,7 @@ for name, model in models:
     model.fit(x_train, y_train)
     print(f'{name}: ', NMAE(y_val,model.predict(x_val)))
 ```
+
+### Future work
+It could be better to change 'odometer' int data into categorical data.
+Example) 0~10000 : 0, 10000~20000 : 1 ...
