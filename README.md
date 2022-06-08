@@ -10,7 +10,9 @@ https://dacon.io/competitions/official/235901/overview/description
 ### Key Idea
 Preprocessing key idea was transforming 'object' data to 'int' data.
 
-Predict 'target' data with 'pytorch DNN' and 'Pycaret Auto ML'
+Predict 'target' data with **'Pytorch DNN'** and **'Pycaret Auto ML'**
+
+Tuning hyper parameter with **'Optuna'**
 
 ### Data set
 Train data has 'title', 'odometer', 'location', 'isimported', 'engine', 'paint', 'year', 'target' columns
