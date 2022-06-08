@@ -37,4 +37,5 @@ for name, model in models:
 
 ### Future work
 It could be better to change 'odometer' int data into categorical data.
-Example) 0~10000 : 0, 10000~20000 : 1 ...
+
+Example) from 0 to 10000 = 0, from 10000 to 20000 = 1 ...
